@@ -1,0 +1,13 @@
+input[type="file"]{
+	display: none;
+}
+input[type="file"] + label > .mybtn{
+	width: 250px;
+	text-align: center;
+	font-size: 26px;
+	background-color: #ccc;
+	color: #000;
+	border: 1px solid #000;
+	border-radius: 5px;
+	cursor: pointer;
+}
